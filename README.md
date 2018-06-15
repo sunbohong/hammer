@@ -42,6 +42,11 @@ IGNORE_CXX_COUNT = 0
 
 #  Set the number of times this breakpoint is skipped before stopping with `objc_exception_throw
 IGNORE_OC_COUNT = 0
+
+# set this to ignore some breakpoint
+IGNORE_CXX_CONDITION = condition
+
+IGNORE_OC_CONDITION = condition
 ```
 
 The config will be available the next time `Xcode` starts.
